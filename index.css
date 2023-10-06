@@ -1,0 +1,59 @@
+body {
+    background-image: url("study.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    color: #4c5b5c;
+}
+
+#container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #d1495b;
+}
+
+#decrement-btn {
+    background: #00798c; 
+}
+
+#save-btn {
+    background: #edae49;
+}
+
+#total-el {
+    padding: 10px 20px;
+    border: 5px solid white;
+
+}
